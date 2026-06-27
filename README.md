@@ -1,4 +1,4 @@
-# JanVaani - AI-Powered Civic Platform 🇮🇳
+# JanVaani - AI-Powered Civic Platform
 
 ![JanVaani Landing](frontend/public/landing%20bg%20%20image.png)
 
@@ -6,17 +6,17 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- **🎙️ Voice Input (Web Speech API):** Citizens can record their issues in Hindi or English without needing to type a single word.
-- **🤖 AI Analysis Engine (OpenAI):** Automatically extracts the issue's category, priority score (1-100), and generates a ready-to-use justification.
-- **📊 MP Dashboard:** A dedicated space for representatives to see ranked priorities backed by data, rather than just raw complaint counts.
-- **🗺️ Live Heatmap (Leaflet.js):** Real-time interactive map plotting complaint hotspots across the country to visualize severe civic issues at a glance.
-- **💎 Premium UI:** Built with Tailwind CSS, utilizing glassmorphism, rounded cards, and smooth animations for an enterprise-level, citizen-first user experience.
+- **Voice Input (Web Speech API):** Citizens can record their issues in Hindi or English without needing to type a single word.
+- **AI Analysis Engine (OpenAI):** Automatically extracts the issue's category, priority score (1-100), and generates a ready-to-use justification.
+- **MP Dashboard:** A dedicated space for representatives to see ranked priorities backed by data, rather than just raw complaint counts.
+- **Live Heatmap (Leaflet.js):** Real-time interactive map plotting complaint hotspots across the country to visualize severe civic issues at a glance.
+- **Premium UI:** Built with Tailwind CSS, utilizing glassmorphism, rounded cards, and smooth animations for an enterprise-level, citizen-first user experience.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework:** React + Vite
@@ -31,7 +31,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v16+)
@@ -76,7 +76,7 @@ Navigate to `http://localhost:5173` in your browser.
 
 ---
 
-## 🤝 Contribution
+## Contribution
 Every voice matters. Feel free to submit issues and pull requests to help build better civic tech!
 
 *© 2026 JanVaani. AI for Democracy.*
