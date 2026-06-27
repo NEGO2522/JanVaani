@@ -9,7 +9,7 @@ const DashboardPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/dashboard/priorities');
+        const response = await axios.get('https://jan-vaani-nu.vercel.app/api/dashboard/priorities');
         if (response.data.success) {
           setData(response.data.priorities);
         } else {

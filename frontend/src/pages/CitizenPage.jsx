@@ -57,7 +57,7 @@ const CitizenPage = () => {
     setError('');
     
     try {
-      const response = await axios.post('http://localhost:5000/api/complaints/submit', formData);
+      const response = await axios.post('https://jan-vaani-nu.vercel.app/api/complaints/submit', formData);
       if (response.data.success) {
         setSuccessData(response.data.data);
         setFormData({ text: '', location: '' });

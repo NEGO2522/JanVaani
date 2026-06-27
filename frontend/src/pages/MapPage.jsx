@@ -12,7 +12,7 @@ const MapPage = () => {
   useEffect(() => {
     const fetchComplaints = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/complaints/all');
+        const response = await axios.get('https://jan-vaani-nu.vercel.app/api/complaints/all');
         if (response.data.success) {
           setComplaints(response.data.data);
         } else {
